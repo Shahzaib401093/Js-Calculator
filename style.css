@@ -1,0 +1,57 @@
+/* 
+Code Explanation:
+The code snippet is a CSS styling for a calculator interface. It sets the margin, padding, background color, width, height, font size, font weight, and border properties for various elements of the calculator.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.dark {
+  background-color: #111111;
+}
+
+.result {
+  width: 92%;
+  margin: 1em;
+  height: 3em;
+  padding-left: 1em;
+  color: #111111;
+  font-size: medium;
+  font-weight: 900;
+  background-color: #e4e3da;
+  border: 2px solid #111111;
+  outline: none;
+}
+
+.Calculator {
+  background-color: #111111;
+  border: 2px solid #e4e3da;
+  width: 50vh !important;
+  padding: 1em;
+  margin: 20px auto;
+  height: auto;
+}
+
+button,
+.b1 {
+  color: #111111;
+  font-weight: bold;
+  background-color: #4dc7f0 !important;
+  border: 2px solid #e4e3da !important;
+  width: 21%;
+  height: 3em;
+  font-size: 1em;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.btn-custom {
+  background-color: #e4e3da !important;
+  color: #111111 !important;
+}
+
+.afterclick {
+  background-color: #4dc7f0 !important;
+}
